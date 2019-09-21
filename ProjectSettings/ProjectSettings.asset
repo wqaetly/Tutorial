@@ -88,7 +88,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.Company.ProductName
+  bundleIdentifier: com.JiangYin.Tutorial
   bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
@@ -326,7 +326,12 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psmSplashimage: {fileID: 0}
   spritePackerPolicy: 
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: ENABLE_LOG
+    4: ENABLE_LOG
+    7: ENABLE_LOG
+    13: ENABLE_LOG
+    14: ENABLE_LOG
   metroPackageName: Tutorial
   metroPackageVersion: 
   metroCertificatePath: 
@@ -412,8 +417,18 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   intPropertyNames:
+  - Android::ScriptingBackend
+  - Standalone::ScriptingBackend
   - WebPlayer::ScriptingBackend
+  - iOS::Architecture
+  - iOS::EnableIncrementalBuildSupportForIl2cpp
+  - iOS::ScriptingBackend
+  Android::ScriptingBackend: 0
+  Standalone::ScriptingBackend: 0
   WebPlayer::ScriptingBackend: 0
+  iOS::Architecture: 2
+  iOS::EnableIncrementalBuildSupportForIl2cpp: 1
+  iOS::ScriptingBackend: 1
   boolPropertyNames:
   - XboxOne::enus
   XboxOne::enus: 1
